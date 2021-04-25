@@ -16,6 +16,7 @@
 		0469B1472631081200ADCA3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469B1462631081200ADCA3A /* main.m */; };
 		0469B1512631081300ADCA3A /* TableViewDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469B1502631081300ADCA3A /* TableViewDelegateTests.m */; };
 		0469B15C2631081300ADCA3A /* TableViewDelegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469B15B2631081300ADCA3A /* TableViewDelegateUITests.m */; };
+		0469B16B2631524D00ADCA3A /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469B16A2631524D00ADCA3A /* LeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		0469B1572631081300ADCA3A /* TableViewDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0469B15B2631081300ADCA3A /* TableViewDelegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDelegateUITests.m; sourceTree = "<group>"; };
 		0469B15D2631081300ADCA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0469B1692631524D00ADCA3A /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		0469B16A2631524D00ADCA3A /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0469B1382631080E00ADCA3A /* SceneDelegate.m */,
 				0469B13A2631080E00ADCA3A /* ViewController.h */,
 				0469B13B2631080E00ADCA3A /* ViewController.m */,
+				0469B1692631524D00ADCA3A /* LeftViewController.h */,
+				0469B16A2631524D00ADCA3A /* LeftViewController.m */,
 				0469B13D2631080E00ADCA3A /* Main.storyboard */,
 				0469B1402631081200ADCA3A /* Assets.xcassets */,
 				0469B1422631081200ADCA3A /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0469B13C2631080E00ADCA3A /* ViewController.m in Sources */,
+				0469B16B2631524D00ADCA3A /* LeftViewController.m in Sources */,
 				0469B1362631080E00ADCA3A /* AppDelegate.m in Sources */,
 				0469B1472631081200ADCA3A /* main.m in Sources */,
 				0469B1392631080E00ADCA3A /* SceneDelegate.m in Sources */,
@@ -441,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TableViewDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TableViewDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
